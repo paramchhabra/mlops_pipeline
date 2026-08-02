@@ -2,12 +2,13 @@ ensure==1.0.2
 fastapi>=0.141.1
 joblib>=1.5.3
 matplotlib>=3.11.1
-mlflow==2.2.2
+mlflow>=3.15.0
 notebook>=7.6.1
 numpy>=1.26.4
 pandas>=2.3.3
 python-box==6.0.2
 pyyaml>=6.0.3
 scikit-learn>=1.9.0
+setuptools<82
 tqdm>=4.70.0
 types-pyyaml>=6.0.12.20260724
