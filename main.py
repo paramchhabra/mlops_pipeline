@@ -1,6 +1,3 @@
-def main():
-    print("Hello from mlops-pipeline!")
+from mlProject import logger
 
-
-if __name__ == "__main__":
-    main()
+logger.info("Welcome to custom Logging")

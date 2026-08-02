@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: mlops-pipeline
+Version: 0.1.0
+Summary: Add your description here
+Home-page: https://github.com/paramchhabra/mlops_pipeline
+Author: paramchhabra
+Author-email: paramchhabra81@gmail.com
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ensure==1.0.2
+Requires-Dist: fastapi>=0.141.1
+Requires-Dist: joblib>=1.5.3
+Requires-Dist: matplotlib>=3.11.1
+Requires-Dist: mlflow==2.2.2
+Requires-Dist: notebook>=7.6.1
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: python-box==6.0.2
+Requires-Dist: pyyaml>=6.0.3
+Requires-Dist: scikit-learn>=1.9.0
+Requires-Dist: tqdm>=4.70.0
+Requires-Dist: types-pyyaml>=6.0.12.20260724
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license-file
+
+# mlops_pipeline
+Practicing creating MLOPs pipeline focusing on Developing, Deployment and Monitoring
