@@ -1,1 +1,57 @@
 [2026-08-02 10:54:12,551:INFO:main:Welcome to custom Logging]
+[2026-08-02 16:10:56,506:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:10:56,511:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:11:34,738:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:11:34,742:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:11:34,745:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-02 16:12:10,491:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:12:10,494:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:12:10,496:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-02 16:12:10,499:INFO:common:Created directory at : artifacts]
+[2026-08-02 16:12:22,910:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:12:22,912:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:12:22,913:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-02 16:12:22,915:INFO:common:Created directory at : artifacts]
+[2026-08-02 16:13:18,916:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:13:18,919:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:13:18,921:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-02 16:13:18,922:INFO:common:Created directory at : artifacts]
+[2026-08-02 16:13:18,925:INFO:common:Created directory at : artifacts/data_ingestion]
+[2026-08-02 16:13:19,822:INFO:1986871273:artifacts/data_ingestion/data.zip downloaded with following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FE9A:1E1E1:254ABB:627CF6:6A6F1F47
+x-github-edge-region: centralindia
+Accept-Ranges: bytes
+Date: Sun, 02 Aug 2026 10:43:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210041-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1785667399.253595,VS0,VE270
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 45f7fe15752348e398159cd1de0a87d01fd845cb
+Expires: Sun, 02 Aug 2026 10:48:19 GMT
+Source-Age: 0
+
+]
+[2026-08-02 16:29:28,942:INFO:main:>>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-08-02 16:29:28,943:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-02 16:29:28,944:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-02 16:29:28,946:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-02 16:29:28,947:INFO:common:Created directory at : artifacts]
+[2026-08-02 16:29:28,948:INFO:common:Created directory at : artifacts/data_ingestion]
+[2026-08-02 16:29:28,949:INFO:data_ingestion:File already exists of size: ~ 23 KB]
+[2026-08-02 16:29:28,954:INFO:main:>>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
