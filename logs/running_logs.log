@@ -265,3 +265,71 @@ Traceback (most recent call last):
   File "C:\Users\param\Desktop\mlops_pipeline\.venv\Lib\site-packages\mlflow\utils\rest_utils.py", line 388, in verify_rest_response
     raise MlflowException(
 mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-08-10 08:58:15,608:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 08:58:15,614:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 08:58:15,625:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 08:58:15,632:INFO:common:Created directory at : artifacts]
+[2026-08-10 08:58:15,635:INFO:common:Created directory at : artifacts/model_evaluation]
+[2026-08-10 08:58:17,713:INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/paramchhabra/mlops_pipeline "HTTP/1.1 200 OK"]
+[2026-08-10 08:58:17,724:INFO:helpers:Initialized MLflow to track repo "paramchhabra/mlops_pipeline"]
+[2026-08-10 08:58:17,728:INFO:helpers:Repository paramchhabra/mlops_pipeline initialized!]
+[2026-08-10 08:58:20,161:INFO:common:json file saved at :artifacts\model_evaluation\metrics.json]
+[2026-08-10 09:03:20,071:INFO:main:>>>>>> stage Data Ingestion Stage started <<<<<<]
+[2026-08-10 09:03:20,073:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 09:03:20,074:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 09:03:20,075:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 09:03:20,075:INFO:common:Created directory at : artifacts]
+[2026-08-10 09:03:20,076:INFO:common:Created directory at : artifacts/data_ingestion]
+[2026-08-10 09:03:20,076:INFO:data_ingestion:File already exists of size: ~ 23 KB]
+[2026-08-10 09:03:20,098:INFO:main:>>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2026-08-10 09:03:20,099:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-08-10 09:03:20,101:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 09:03:20,102:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 09:03:20,103:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 09:03:20,104:INFO:common:Created directory at : artifacts]
+[2026-08-10 09:03:20,104:INFO:common:Created directory at : artifacts/data_validation]
+[2026-08-10 09:03:20,150:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-08-10 09:03:20,150:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2026-08-10 09:03:20,174:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 09:03:20,176:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 09:03:20,179:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 09:03:20,180:INFO:common:Created directory at : artifacts]
+[2026-08-10 09:03:20,181:INFO:common:Created directory at : artifacts/data_transformation]
+[2026-08-10 09:03:20,213:INFO:data_transformation:Splited data into training and test sets]
+[2026-08-10 09:03:20,213:INFO:data_transformation:(1199, 12)]
+[2026-08-10 09:03:20,214:INFO:data_transformation:(400, 12)]
+[2026-08-10 09:03:20,215:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-08-10 09:03:20,215:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2026-08-10 09:03:20,218:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 09:03:20,219:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 09:03:20,223:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 09:03:20,224:INFO:common:Created directory at : artifacts]
+[2026-08-10 09:03:20,224:INFO:common:Created directory at : artifacts/model_trainer]
+[2026-08-10 09:03:20,480:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-08-10 09:03:20,480:INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2026-08-10 09:03:20,482:INFO:common:yaml file:config\config.yaml loaded successfully]
+[2026-08-10 09:03:20,482:INFO:common:yaml file:params.yaml loaded successfully]
+[2026-08-10 09:03:20,484:INFO:common:yaml file:schema.yaml loaded successfully]
+[2026-08-10 09:03:20,484:INFO:common:Created directory at : artifacts]
+[2026-08-10 09:03:21,743:INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-08-10 09:03:21,760:INFO:helpers:Accessing as paramchhabra]
+[2026-08-10 09:03:22,917:INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/paramchhabra/mlops_pipeline "HTTP/1.1 200 OK"]
+[2026-08-10 09:03:23,581:INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2026-08-10 09:03:23,585:INFO:helpers:Initialized MLflow to track repo "paramchhabra/mlops_pipeline"]
+[2026-08-10 09:03:23,586:INFO:helpers:Repository paramchhabra/mlops_pipeline initialized!]
+[2026-08-10 09:03:23,587:INFO:common:Created directory at : artifacts/model_evaluation]
+[2026-08-10 09:03:24,844:INFO:_client:HTTP Request: GET https://dagshub.com/api/v1/repos/paramchhabra/mlops_pipeline "HTTP/1.1 200 OK"]
+[2026-08-10 09:03:24,848:INFO:helpers:Initialized MLflow to track repo "paramchhabra/mlops_pipeline"]
+[2026-08-10 09:03:24,849:INFO:helpers:Repository paramchhabra/mlops_pipeline initialized!]
+[2026-08-10 09:03:26,730:INFO:common:json file saved at :artifacts\model_evaluation\metrics.json]
+[2026-08-10 09:03:40,445:INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
